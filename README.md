@@ -1,4 +1,4 @@
-# DF DEMO APP
+# DF Demo App
 
 This is a minimal web application designed to showcase DevOps, SRE, and platform engineering tools and workflows. The application supports **light and dark mode** with distinct logos and banners for each mode. It is containerized using Docker and can be extended for CI/CD and GitOps workflows.
 
@@ -22,8 +22,8 @@ This is a minimal web application designed to showcase DevOps, SRE, and platform
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd my-demo-platform
+   git clone https://github.com/crypticseeds/df-demo-app.git
+   cd df-demo-app
    ```
 
 2. **Install Dependencies**:
@@ -43,12 +43,12 @@ This is a minimal web application designed to showcase DevOps, SRE, and platform
 
 1. **Build the Docker Image**:
    ```bash
-   docker build -t my-demo-platform:latest .
+   docker build -t df-demo-app:latest .
    ```
 
 2. **Run the Docker Container**:
    ```bash
-   docker run -d -p 3000:3000 my-demo-platform:latest
+   docker run -d -p 3000:3000 df-demo-app:latest
    ```
 
 3. **Access the Application**:
@@ -63,7 +63,7 @@ This is a minimal web application designed to showcase DevOps, SRE, and platform
 
 ## Future Enhancements
 - **CI/CD Integration**: Automate build and deployment pipelines using GitHub Actions or Jenkins.
-- **GitOps**: Deploy the app to a Kubernetes cluster using ArgoCD or Flux.
+- **GitOps**: Deploy the app to a Kubernetes cluster using ArgoCD.
 - **Dynamic Content**: Add support for fetching and displaying dynamic data.
 - **Monitoring and Observability**: Implement monitoring and observability tools.
 - **Secrets Management**: Implement secrets management tools.
