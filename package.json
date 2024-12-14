@@ -1,0 +1,20 @@
+{
+  "name": "df-demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Femi Akinlotan",
+    "email": "femi.akinlotan@devopsfoundry.com",
+    "url": "https:www.devopsfoundry.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
