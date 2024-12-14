@@ -1,4 +1,3 @@
-
 /**
  * @fileoverview Demo App for DevOps Foundry
  * @author Femi Akinlotan <femi.akinlotan@devopsfoundry.com>
@@ -12,14 +11,16 @@ function updateDateTime() {
         weekday: 'long', 
         year: 'numeric', 
         month: 'long', 
-        day: 'numeric' 
+        day: 'numeric',
+        timeZone: 'Europe/London'
     };
     
     const timeOptions = {
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
-        hour12: true
+        hour12: true,
+        timeZone: 'Europe/London'
     };
 
     const now = new Date();
